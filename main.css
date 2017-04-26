@@ -41,7 +41,8 @@ li {
     padding: 0;
 }
 #photo {
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 0px 0px 20px;
 }
 .socialbutton {
@@ -60,80 +61,80 @@ li {
     height:30px;
 }
 #socialbutton_mailto {
-    background:url('/social_buttons.png') no-repeat 0 0;
+    background:url('social_buttons.png') no-repeat 0 0;
 }
 #socialbutton_mailto:hover {
     background-position:-31px 0;
 }
 #socialbutton_facebook {
-    background:url('/social_buttons.png') no-repeat 0 -31px;
+    background:url('social_buttons.png') no-repeat 0 -31px;
 }
 #socialbutton_facebook:hover {
     background-position:-31px -31px;
 }
 #socialbutton_twitter {
-    background:url('/social_buttons.png') no-repeat 0 -62px;
+    background:url('social_buttons.png') no-repeat 0 -62px;
 }
 #socialbutton_twitter:hover {
     background-position:-31px -62px;
 }
 #socialbutton_youtube {
-    background:url('/social_buttons.png') no-repeat 0 -93px;
+    background:url('social_buttons.png') no-repeat 0 -93px;
 }
 #socialbutton_youtube:hover {
     background-position:-31px -93px;
 }
 #socialbutton_instagram {
-    background:url('/social_buttons.png') no-repeat 0 -124px;
+    background:url('social_buttons.png') no-repeat 0 -124px;
 }
 #socialbutton_instagram:hover {
     background-position:-31px -124px;
 }
 #socialbutton_linkedin {
-    background:url('/social_buttons.png') no-repeat 0 -155px;
+    background:url('social_buttons.png') no-repeat 0 -155px;
 }
 #socialbutton_linkedin:hover {
     background-position:-31px -155px;
 }
 #socialbutton_github {
-    background:url('/social_buttons.png') no-repeat 0 -186px;
+    background:url('social_buttons.png') no-repeat 0 -186px;
 }
 #socialbutton_github:hover {
     background-position:-31px -186px;
 }
 #socialbutton_skype {
-    background:url('/social_buttons.png') no-repeat 0 -217px;
+    background:url('social_buttons.png') no-repeat 0 -217px;
 }
 #socialbutton_skype:hover {
     background-position:-31px -217px;
 }
 #socialbutton_wordpress {
-    background:url('/social_buttons.png') no-repeat 0 -248px;
+    background:url('social_buttons.png') no-repeat 0 -248px;
 }
 #socialbutton_wordpress:hover {
     background-position:-31px -248px;
 }
 
 #platformbutton_apple {
-    background:url('/platform_buttons.png') no-repeat 0 0;
+    background:url('platform_buttons.png') no-repeat 0 0;
 }
 #platformbutton_apple:hover {
     background-position:-31px 0;
 }
 #platformbutton_android {
-    background:url('/platform_buttons.png') no-repeat 0 -31px;
+    background:url('platform_buttons.png') no-repeat 0 -31px;
 }
 #platformbutton_android:hover {
     background-position:-31px -31px;
 }
 #platformbutton_windows {
-    background:url('/platform_buttons.png') no-repeat 0 -62px;
+    background:url('platform_buttons.png') no-repeat 0 -62px;
 }
 #platformbutton_windows:hover {
     background-position:-31px -62px;
 }
 #platformbutton_amazon {
-    background:url('/platform_buttons.png') no-repeat 0 -93px;
+    background:url('platform_buttons.png') no-repeat 0 -93px;
 }
 #platformbutton_amazon:hover {
     background-position:-31px -93px;
