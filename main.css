@@ -36,14 +36,51 @@ li {
     line-height: 1.5;
 }
 #content {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0;
 }
 #photo {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0px 20px 0px;
+    width:50px;
+    height:50px;
+    margin:0 20px 6px 0;
+    padding:0;
+    border:0;
+}
+.tile {
+    display:inline-block;
+    margin:3px;
+    padding:0;
+    border:0;
+}
+a.tile {
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    background:red;
+}
+.tile-background {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:2px solid transparent;
+}
+.tile-background:hover {
+    border-color:white;
+}
+.tile-icon {
+    height:50%;
+    width:50%;
+}
+.tile-caption {
+    position:absolute;
+    bottom:0;
+    margin:0 0 6px 12px;
 }
 .socialbutton {
     margin-right:10px;
