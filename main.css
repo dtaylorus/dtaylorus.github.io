@@ -1,44 +1,61 @@
 ﻿html {
-    background-color: black;
-    font-family: sans-serif;
-    letter-spacing: 0.48px;
-    color: #eeeeee;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    background-color:black;
+    font-family:sans-serif;
+    letter-spacing:0.48px;
+    color:#eeeeee;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
 }
 body {
     height:100%;
-    margin:2em;
+    margin:24px;
 }
 h1 {
-    font-family: 'Segoe UI',Arial,sans-serif;
-    font-size: 300%;
-    font-weight: 700;
-    margin: 0;
+    font-family:'Segoe UI',Arial,sans-serif;
+    font-size:300%;
+    font-weight:bold;
+    margin:0;
 }
 h2 {
-    font-family: 'Segoe UI',Arial,sans-serif;
-    clear: left;
-    padding-top: 0px;
+    font-family:'Segoe UI',Arial,sans-serif;
+    font-weight:normal;
+    clear:left;
+    padding-top:0;
+    margin:0;
 }
 p {
-line-height: 1.3;
+    line-height:1.3;
 }
 a,a:visited {
-    text-decoration: none;
+    text-decoration:none;
     font-weight:600;
-    color: #ff2020;
+    color:#ff2020;
 }
 a:hover {
-    color: #ffffff;
+    color:#ffffff;
 }
 li {
-    line-height: 1.5;
+    line-height:1.5;
 }
 #content {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 0;
+    max-width:500px;
+    margin:0 auto;
+    padding:0;
+}
+#header {
+    white-space:nowrap;
+}
+#header .header-image {
+    display:inline-block;
+    vertical-align:middle;
+    width:120px;
+    height:120px;
+    margin:6px 12px 6px 12px;
+}
+#header .header-caption {
+    display:inline-block;
+    vertical-align:middle;
+    margin:0 0 0 24px;
 }
 #photo {
     width:50px;
@@ -54,18 +71,18 @@ li {
     border:0;
 }
 a.tile {
-    font-weight: normal;
-    text-decoration: none;
-    color: white;
+    font-weight:normal;
+    text-decoration:none;
+    color:white;
     background:red;
 }
 .tile-background {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    width:150px;
+    height:150px;
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
     margin:0;
     padding:0;
     border:2px solid transparent;
@@ -90,9 +107,9 @@ a.tile {
     height:30px;
 }
 .platformbutton {
-    margin-right: -0em;
-    margin-bottom: -0.4em;
-    padding-bottom: -0.0em;
+    margin-right:-0em;
+    margin-bottom:-0.4em;
+    padding-bottom:-0.0em;
     display:inline-block;
     width:30px;
     height:30px;
@@ -176,8 +193,27 @@ a.tile {
 #platformbutton_amazon:hover {
     background-position:-31px -93px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width:524px) {
 body {
     margin:1em;
+}
+h1 {
+    font-size:200%;
+    font-weight:bold;
+}
+h2 {
+    font-size:100%;
+    font-weight:normal;
+}
+#header .header-image {
+    margin:6px 0 6px 12px;
+}
+#header .header-caption {
+    margin:0 0 0 12px;
+}
+}
+@media screen and (max-width:375px) {
+#header .header-caption {
+    display:block;
 }
 }
