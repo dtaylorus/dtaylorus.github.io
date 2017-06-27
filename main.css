@@ -1,219 +1,230 @@
 ﻿html {
-    background-color:black;
-    font-family:sans-serif;
-    letter-spacing:0.48px;
-    color:#eeeeee;
-    -webkit-text-size-adjust:100%;
-    -ms-text-size-adjust:100%;
+	background-color:black;
+	font-family:sans-serif;
+	letter-spacing:0.48px;
+	text-align:center;
+	color:#eeeeee;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
 }
 body {
-    height:100%;
-    margin:24px;
+	height:100%;
+	margin:12px 0;
+	text-align:left;
 }
 h1 {
-    font-family:'Segoe UI',Arial,sans-serif;
-    font-size:300%;
-    font-weight:bold;
-    margin:0;
+	font-family:'Segoe UI',Arial,sans-serif;
+	font-size:300%;
+	font-weight:bold;
+	margin:0;
 }
 h2 {
-    font-family:'Segoe UI',Arial,sans-serif;
-    font-weight:normal;
-    clear:left;
-    padding-top:0;
-    margin:0;
+	font-family:'Segoe UI',Arial,sans-serif;
+	font-weight:normal;
+	clear:left;
+	padding-top:0;
+	margin:0;
 }
 p {
-    line-height:1.3;
+	line-height:1.3;
 }
 a,a:visited {
-    text-decoration:none;
-    font-weight:600;
-    color:#ff2020;
+	text-decoration:none;
+	font-weight:600;
+	color:#ff2020;
 }
 a:hover {
-    color:#ffffff;
+	color:#ffffff;
 }
 li {
-    line-height:1.5;
+	line-height:1.5;
 }
 #content {
-    max-width:500px;
-    margin:0 auto;
-    padding:0;
+	max-width:500px;
+	margin:0 auto;
+	padding:0;
 }
 #header {
-    white-space:nowrap;
+	white-space:nowrap;
 }
 #header .header-image {
-    display:inline-block;
-    vertical-align:middle;
-    width:120px;
-    height:120px;
-    margin:6px 12px 6px 12px;
+	display:inline-block;
+	vertical-align:middle;
+	width:120px;
+	height:120px;
+	margin:6px 12px 6px 12px;
 }
 #header .header-caption {
-    display:inline-block;
-    vertical-align:middle;
-    margin:0 0 0 24px;
+	display:inline-block;
+	vertical-align:middle;
+	margin:0 0 0 24px;
+	text-align:left;
+}
+.header-clear {
+	clear:both;
+	margin:36px 0 0 0;
 }
 #photo {
-    width:50px;
-    height:50px;
-    margin:0 20px 6px 0;
-    padding:0;
-    border:0;
+	width:50px;
+	height:50px;
+	margin:0 20px 6px 0;
+	padding:0;
+	border:0;
 }
 .tile {
-    display:inline-block;
-    margin:3px;
-    padding:0;
-    border:0;
+	display:inline-block;
+	margin:3px;
+	padding:0;
+	border:0;
 }
 a.tile {
-    font-weight:normal;
-    text-decoration:none;
-    color:white;
-    background:red;
+	font-weight:normal;
+	text-decoration:none;
+	color:white;
+	background:red;
 }
 .tile-background {
-    width:150px;
-    height:150px;
-    position:relative;
-    display:table-cell;
-    vertical-align:middle;
-    text-align:center;
-    margin:0;
-    padding:0;
-    border:2px solid transparent;
+	width:150px;
+	height:150px;
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:2px solid transparent;
 }
 .tile-background:hover {
-    border-color:white;
+	border-color:white;
 }
 .tile-icon {
-    height:50%;
-    width:50%;
+	height:50%;
+	width:50%;
 }
 .tile-caption {
-    position:absolute;
-    bottom:0;
-    margin:0 0 6px 12px;
+	position:absolute;
+	bottom:0;
+	margin:0 0 6px 12px;
 }
 .socialbutton {
-    margin-right:10px;
-    padding:0;
-    display:inline-block;
-    width:30px;
-    height:30px;
+	margin-right:10px;
+	padding:0;
+	display:inline-block;
+	width:30px;
+	height:30px;
 }
 .platformbutton {
-    margin-right:-0em;
-    margin-bottom:-0.4em;
-    padding-bottom:-0.0em;
-    display:inline-block;
-    width:30px;
-    height:30px;
+	margin-right:-0em;
+	margin-bottom:-0.4em;
+	padding-bottom:-0.0em;
+	display:inline-block;
+	width:30px;
+	height:30px;
 }
 #socialbutton_mailto {
-    background:url('social_buttons.png') no-repeat 0 0;
+	background:url('social_buttons.png') no-repeat 0 0;
 }
 #socialbutton_mailto:hover {
-    background-position:-31px 0;
+	background-position:-31px 0;
 }
 #socialbutton_facebook {
-    background:url('social_buttons.png') no-repeat 0 -31px;
+	background:url('social_buttons.png') no-repeat 0 -31px;
 }
 #socialbutton_facebook:hover {
-    background-position:-31px -31px;
+	background-position:-31px -31px;
 }
 #socialbutton_twitter {
-    background:url('social_buttons.png') no-repeat 0 -62px;
+	background:url('social_buttons.png') no-repeat 0 -62px;
 }
 #socialbutton_twitter:hover {
-    background-position:-31px -62px;
+	background-position:-31px -62px;
 }
 #socialbutton_youtube {
-    background:url('social_buttons.png') no-repeat 0 -93px;
+	background:url('social_buttons.png') no-repeat 0 -93px;
 }
 #socialbutton_youtube:hover {
-    background-position:-31px -93px;
+	background-position:-31px -93px;
 }
 #socialbutton_instagram {
-    background:url('social_buttons.png') no-repeat 0 -124px;
+	background:url('social_buttons.png') no-repeat 0 -124px;
 }
 #socialbutton_instagram:hover {
-    background-position:-31px -124px;
+	background-position:-31px -124px;
 }
 #socialbutton_linkedin {
-    background:url('social_buttons.png') no-repeat 0 -155px;
+	background:url('social_buttons.png') no-repeat 0 -155px;
 }
 #socialbutton_linkedin:hover {
-    background-position:-31px -155px;
+	background-position:-31px -155px;
 }
 #socialbutton_github {
-    background:url('social_buttons.png') no-repeat 0 -186px;
+	background:url('social_buttons.png') no-repeat 0 -186px;
 }
 #socialbutton_github:hover {
-    background-position:-31px -186px;
+	background-position:-31px -186px;
 }
 #socialbutton_skype {
-    background:url('social_buttons.png') no-repeat 0 -217px;
+	background:url('social_buttons.png') no-repeat 0 -217px;
 }
 #socialbutton_skype:hover {
-    background-position:-31px -217px;
+	background-position:-31px -217px;
 }
 #socialbutton_wordpress {
-    background:url('social_buttons.png') no-repeat 0 -248px;
+	background:url('social_buttons.png') no-repeat 0 -248px;
 }
 #socialbutton_wordpress:hover {
-    background-position:-31px -248px;
+	background-position:-31px -248px;
 }
 
 #platformbutton_apple {
-    background:url('platform_buttons.png') no-repeat 0 0;
+	background:url('platform_buttons.png') no-repeat 0 0;
 }
 #platformbutton_apple:hover {
-    background-position:-31px 0;
+	background-position:-31px 0;
 }
 #platformbutton_android {
-    background:url('platform_buttons.png') no-repeat 0 -31px;
+	background:url('platform_buttons.png') no-repeat 0 -31px;
 }
 #platformbutton_android:hover {
-    background-position:-31px -31px;
+	background-position:-31px -31px;
 }
 #platformbutton_windows {
-    background:url('platform_buttons.png') no-repeat 0 -62px;
+	background:url('platform_buttons.png') no-repeat 0 -62px;
 }
 #platformbutton_windows:hover {
-    background-position:-31px -62px;
+	background-position:-31px -62px;
 }
 #platformbutton_amazon {
-    background:url('platform_buttons.png') no-repeat 0 -93px;
+	background:url('platform_buttons.png') no-repeat 0 -93px;
 }
 #platformbutton_amazon:hover {
-    background-position:-31px -93px;
+	background-position:-31px -93px;
 }
-@media screen and (max-width:524px) {
+@media screen and (max-width:491px) {
 body {
-    margin:1em;
+	text-align:center;
 }
 h1 {
-    font-size:200%;
-    font-weight:bold;
+	font-size:200%;
+	font-weight:bold;
 }
 h2 {
-    font-size:100%;
-    font-weight:normal;
+	font-size:100%;
+	font-weight:normal;
 }
 #header .header-image {
-    margin:6px 0 6px 12px;
+	margin:6px 0 6px 12px;
 }
 #header .header-caption {
-    margin:0 0 0 12px;
+	margin:0 0 0 12px;
+}
+.header-clear {
+	margin:12px 0 0 0;
 }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:359px) {
 #header .header-caption {
-    display:block;
+	display:block;
+	text-align:center;
 }
 }
