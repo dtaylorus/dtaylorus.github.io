@@ -84,8 +84,8 @@ a.tile {
 	background:red;
 }
 .tile-background {
-	width:150px;
-	height:150px;
+	width:140px;
+	height:140px;
 	position:relative;
 	display:table-cell;
 	vertical-align:middle;
@@ -200,7 +200,7 @@ a.tile {
 #platformbutton_amazon:hover {
 	background-position:-31px -93px;
 }
-@media screen and (max-width:491px) {
+@media screen and (max-width:459px) {
 body {
 	text-align:center;
 }
